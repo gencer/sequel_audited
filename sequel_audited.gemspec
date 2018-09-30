@@ -6,7 +6,7 @@ require 'sequel/audited/version'
 Gem::Specification.new do |spec|
   spec.name          = 'sequel_audited'
   spec.version       = Sequel::Audited::VERSION
-  spec.authors       = ['Kematzy', 'tohchye', 'jnylen']
+  spec.authors       = ['Kematzy', 'tohchye', 'jnylen', 'gencer']
   spec.email         = ['me@jnylen.nu']
 
   spec.summary       = %q{A Sequel plugin that logs changes made to an audited model, including who created, updated and destroyed the record, and what was changed and when the change was made.}
